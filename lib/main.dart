@@ -12,13 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      // theme: ThemeData(
+      //   primaryColor: Colors.deepPurple,
+      //   useMaterial3: true,
+      // ),
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          foregroundColor: Theme.of(context).primaryColor,
+          surfaceTintColor: Colors.deepPurple,
           title: const Text('Flutter Demo Home Page'),
         ),
         body: const Center(
