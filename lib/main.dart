@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       // ),
       home: Scaffold(
         appBar: AppBar(
-          foregroundColor: Theme.of(context).primaryColor,
+          // foregroundColor: Theme.of(context).primaryColor,
           surfaceTintColor: Colors.deepPurple,
           title: const Text('Flutter Demo Home Page'),
         ),
